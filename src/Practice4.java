@@ -1,4 +1,4 @@
-package practice;
+
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ public class Practice4 {
 
 	public static void main(String[] args) {
 
-		String[] array = { "animal", "smile", "sea", "vacation", "ball", "orange" };
+		String[] array = { "its", "me", "hello", "how", "are", "you" };
 		System.out.println(Arrays.toString(array));
 		sortingByAbc(array);
 //		String s1 = "hallo";
@@ -30,7 +30,7 @@ public class Practice4 {
 		
 		 System.out.println();
 
-		String arrwords[] = { "All", "we", "need", "is", "love" };
+		String arrwords[] = { "Welcome", "to", "San francisco", "one", "love" };
 		for (int i = 0; i < arrwords.length; i++) {
 			for (int j = 0; j < arrwords.length; j++) {
 				if (arrwords[i].length() < arrwords[j].length()) {
