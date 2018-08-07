@@ -14,7 +14,7 @@ public class Practice4 {
 
 	}
 
-	public static void sortingByAbc(String[] arr) {
+	public static void sortingByAbcNadusha(String[] arr) {
 		for (int j = arr.length - 1; j > 0; j--) {
 			for (int b = 0; b < j; b++) {
 				if (arr[b].compareTo(arr[b + 1]) > 0) {
