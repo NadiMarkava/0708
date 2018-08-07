@@ -6,7 +6,9 @@ public class Practice4 {
 
 	public static void main(String[] args) {
 
-		String[] array = { "its", "me", "hello", "what", "will", "doing" };
+
+		String[] array = { "its", "me", "hello", "what", "will", "doing", "SKUBIDU" };
+
 		System.out.println(Arrays.toString(array));
 		sortingByAbc(array);
 //		String s1 = "hallo";
